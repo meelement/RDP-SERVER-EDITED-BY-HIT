@@ -21,8 +21,10 @@ wget https://media.codeweavers.com/pub/crossover/cxlinux/demo/crossover_20.0.2-1
 sudo dpkg -i crossover_20.0.2-1.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
-sudo apt -y install obs-studio
 sudo apt -y install firefox
+sudo apt -y install gnome-terminal
+sudo apt -y install xterm
+sudo apt -y install tilda
 sudo adduser HIT chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
